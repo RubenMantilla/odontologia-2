@@ -10,8 +10,10 @@
     --background-hover: darkcyan;
     --background-header: darkgreen;
     --background-header2: #333344;
+    --background-cards: #4adbf5
     --colorbotones: #779988;
     --colortitulos: #002345;
+
 }
 
 h2{
@@ -198,7 +200,7 @@ nav{
 }
 
 .cards .card{
-    background-color: rgb(0, 144, 255);
+    background-color: var(--background-cards);
     color: #ffffff;
     width: 300px;
     height: 350px;
