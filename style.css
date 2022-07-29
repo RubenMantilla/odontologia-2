@@ -27,9 +27,14 @@ body{
 }
 
 nav{
-    background-color: black;
+    background-color: darkgreen;
+    opacity: .7;
     color: white;
     width: 100%;
+}
+
+nav .mobile{
+    display: none;
 }
 
 nav .mobile .header{
@@ -41,7 +46,8 @@ nav .mobile .header{
 
 nav .mobile .header .more button{
     border: none;
-    background-color: var(--backgroundhover);
+    background-color: darkcyan;
+    color: #ffffff;
     padding: 15px;
     cursor: pointer;
 }
@@ -58,8 +64,8 @@ nav a{
 }
 
 nav a:hover{
-    color:black;
-    background-color: var(--backgroundhover);
+    color: #ffffff;
+    background-color: darkcyan;
 }
 
 nav .desktop{
