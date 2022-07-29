@@ -15,11 +15,11 @@
                 <div class="mobile">
                     <div class="header">
                         <div class="logo">Logo</div>
-                        <div class="more"><button id="bmore"><span class="material-symbols-outlined">
+                        <div class="more"><button id="bMore"><span class="material-symbols-outlined">
                             menu
                             </span></button></div>
                     </div>
-                    <div class="links collapsed">
+                    <div id="links" class="links">
                         <a href="#novedades">Novedades</a>
                         <a href="#testimonios">Testimonios</a>
                         <a href="#galeria">Galería</a>
@@ -225,10 +225,10 @@
         </footer>
 
         <script>
-            const bmore =  document.querySelector('#bmore');
-            const links = document.querySelector('links');
+            const bMore = document.querySelector('#bMore');
+            const links = document.querySelector('#links');
 
-            bmore.addEventListener('click', e => {
+            bMore.addEventListener('click', (e) => {
                 links.classList.toggle('collapsed')
             });
         </script>
