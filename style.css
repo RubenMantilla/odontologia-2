@@ -10,7 +10,7 @@
     --background-hover: darkcyan;
     --background-header: darkgreen;
     --background-header2: #333344;
-    --background-cards: #4adbf5
+    --background-cards: #4adbf5;
     --colorbotones: #779988;
     --colortitulos: #002345;
 
@@ -111,11 +111,9 @@ nav{
         width: 200px;
         right: 0;
     }
-
     nav .secondary.mini:hover .submenu{
         display: block;
     }
-
     nav .mobile{
         display: none;
     }
@@ -126,7 +124,6 @@ nav{
     nav .desktop{
         display: none;
     }
-
     nav .mobile{
         display: block;
     }
