@@ -6,7 +6,10 @@
 
 :root{
     --font-texto: Arial, Helvetica, sans-serif;
-    --backgroundhover: #00c3ff
+    --background-hover: darkcyan;
+    --background-header: darkgreen;
+    --background-header2: #333344;
+    
 
 }
 
@@ -27,7 +30,7 @@ body{
 }
 
 nav{
-    background-color: darkgreen;
+    background-color: var(--background-header);
     opacity: .7;
     color: white;
     width: 100%;
@@ -46,7 +49,7 @@ nav .mobile .header{
 
 nav .mobile .header .more button{
     border: none;
-    background-color: darkcyan;
+    background-color: var(--background-hover);
     color: #ffffff;
     padding: 15px;
     cursor: pointer;
@@ -65,7 +68,7 @@ nav a{
 
 nav a:hover{
     color: #ffffff;
-    background-color: darkcyan;
+    background-color: var(--background-hover);
 }
 
 nav .desktop{
@@ -98,7 +101,7 @@ nav .desktop .secondary.mini{
     }
 
     nav .secondary.mini .submenu{
-        background-color: black;
+        background-color: var(--background-header2);
         position: absolute;
         display: none;
         width: 200px;
